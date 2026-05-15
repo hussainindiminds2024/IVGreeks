@@ -1,0 +1,13 @@
+Instructions:
+===============
+cd build
+
+cmake ..
+
+cmake --build . --config Release
+
+Run
+========
+./Release/ivgreeks.exe -> Input Based Program
+./Release/ivbench.exe -> 100k Input Load Test Program
+./Release/ivlatencybench.exe -> Latency with 100k Input factors Test Program
